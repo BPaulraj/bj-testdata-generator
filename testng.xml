@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sample Suite">
+    <test name="UI Tests">
+        <classes>
+            <class name="SampleUITest"/>
+        </classes>
+    </test>
+    <test name="API Tests">
+        <classes>
+            <class name="SampleAPITest"/>
+        </classes>
+    </test>
+</suite>

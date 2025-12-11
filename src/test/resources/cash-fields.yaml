@@ -1,0 +1,27 @@
+recordCount: 10
+fields:
+  - name: Identifier
+    type: string
+    mandatory: true
+    format: plain
+  - name: TransactionRef
+    type: string
+    mandatory: true
+    format: transactionRef
+    values: [EQ123456]
+  - name: Paymenttype
+    type: string
+    mandatory: true
+    format: paymentType
+    values: [Cheque, Bank transfer, Card]
+  - name: amount
+    type: number
+    mandatory: true
+    format: decimal6
+  - name: Paymentchannel
+    type: string
+    mandatory: false
+    format: plain
+channels:
+  - Cheque
+  - Bank transfer
